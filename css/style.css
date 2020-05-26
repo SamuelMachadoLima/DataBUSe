@@ -1,0 +1,125 @@
+ /* INICiO Geral  */
+ body{
+    overflow: hidden;
+    font-family: cursive;
+    color: #343a40;
+}
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+/* FIM Geral */
+
+/* INICIO Header */
+header.header{
+    background-color: #343a40;
+}
+.navegacao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navegacao img{
+    max-width: 100px;
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+}
+.navegacao ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: space-around;
+    top: 50%;
+    transform: translateY(25%);
+}
+.navegacao ul li{
+    list-style: none;
+}
+/* FIM Header */
+
+/* INICIO Main */
+.main .titulo_linhas{
+    margin: 3% 0px;
+    border: 1px solid #343a40;
+}
+.main .titulo_linhas h1{
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+section.linhas .titulo_linhas > div.input-group{
+    margin: 1% 1% 3% 1%;
+}
+section.linhas .row{
+    margin: 5% 0px;
+}
+.lista{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+#linhas {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+#listLines {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#listLines li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block
+}
+#listLines li a:hover:not(.header) {
+    background-color: #eee;
+    color: #343a40;
+}
+.otimo a{
+    color: #db6133;
+}
+.bhbus a{
+    color: #95a19b;
+}
+/* FIM Main */
+
+/* INICIO Media Query */
+@media screen and (max-width: 1200px){
+    body{
+      font-family: initial;
+      overflow: visible;
+    }
+}
+@media screen and (max-width: 992px){
+    body{
+      font-family: initial;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+      font-family: initial;
+    }
+}
+@media screen and (max-width: 576px){
+    body{
+      font-family: initial;
+    }
+}
+/* FIM Media Query */

@@ -1,0 +1,2902 @@
+{
+  "result": [
+    {
+      "COD_LINH": "101",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "AGLOMERADO SANTA LUCIA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "102",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "NOSSA SENHORA DE FATIMA/HOSPITAL EVANGELICO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "103",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "VILA CAFEZAL/RUA POUSO ALTO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "1030",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "AVENIDA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "104",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO LAGOINHA / AVENIDA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "105",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO CENTRAL / LOURDES",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "107",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "VILA MARCOLA / RUA DO OURO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "1145",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BAIRRO DAS INDUSTRIAS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "1170",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA LUCIA/MANGABEIRAS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "1404A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PALMEIRAS / ALIPIO DE MELO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "1404B",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTRELA DO ORIENTE / JARDIM INCONFIDENCIA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "1404C",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PALMEIRAS / SAO SALVADOR",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "1502",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "VISTA ALEGRE / GUARANI",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "1505",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ALTO DOS PINHEIROS/TUPI",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "1505R",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CONJUNTO FELICIDADE / CENTRO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "1509",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CALIFORNIA/TUPI",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "1510",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "MADRE GERTRUDES/PROVIDENCIA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "201",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "MORRO DAS PEDRAS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "202",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILA OESTE",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "203",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "MORRO DAS PEDRAS/VENTOSA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "2033",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BETANIA / CENTRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "2034",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CONJUNTO BETANIA / CENTRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "2035",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BAIRRO DAS INDUSTRIAS / CENTRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "204",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILA OESTE / NOVA GAMELEIRA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "205",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "METRO CALAFATE/BURITIS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "206",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIRCULAR OESTE",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "2101",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "GRAJAU/SION",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "2102",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "GAMELEIRA / SERRA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "2103",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PRADO/ANCHIETA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "2104",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "NOVA GAMELEIRA/BH SHOPPING",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "2150",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "GRAJAU/SION VIA CONTORNO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "2151",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "VISTA ALEGRE/SERRA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "2152",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SALGADO FILHO/CRUZEIRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "30",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE/CENTRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "301",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "EST.DIAMANTE/NOVO STA.CECILIA V. BRASIL INDUSTRIAL",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "302",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE / VILA PINHO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "3029",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "REGINA / CENTRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "303",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE / SANTA CECILIA VIA CASTANHEIRAS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "3030",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PILAR-OLHOS D AGUA / CENTRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "304",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE / JATOBA IV",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "305",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE / MANGUEIRAS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "3050",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE/HOSPITAIS VIA BH SHOPPING",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3051",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "FLAVIO MARQUES LISBOA / SAVASSI VIA N.S.CARMO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3052",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE/BH SHOPPING-VIA HAVAI",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3053",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO/B.PRETO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3054",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "MILIONARIOS/CENTRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3055",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO/SAVASSI VIA BHSHOPPING",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "308",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / TIROL",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "309",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE / BAIRRO PETROPOLIS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "310",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE / 3 E 4 SECAO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "311",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE / INDEPENDENCIA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "313",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE / OLARIA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "314",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO DIAMANTE/ESTACAO BARREIRO VIA SANTA HELENA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "315",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / BARREIRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "3150",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "REGINA-LINDEIA / BH SHOPPING VIA ANEL RODOVIARIO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "318",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO/JARDIM LIBERDADE VIA MILIONARIOS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "319",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "VILA CEMIG/CONJ.ESPERANCA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "32",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO/CENTRO-TAMOIOS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "320",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESCOLA ESTADUAL AMARO NEVES",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "321",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "OLHOS D AGUA / PILAR",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "325",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / FLAVIO MARQUES LISBOA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "326",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / VALE DO JATOBA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "327",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / CARDOSO A",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "328",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / CARDOSO B",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "329",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / JATOBA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "33",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO/CENTRO-HOSPITAIS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "330",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / INDEPENDENCIA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "3301A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA TEREZINHA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3301B",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CASTELO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3302A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "NOVA PAMPULHA VIA ITAMARATI",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3302B",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BRAUNAS VIA ITAMARATI",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3302D",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BRAUNAS",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "331",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO/CONJ.ANTONIO TEIXEIRA DIAS V.UPA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "332",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / MILIONARIOS - BONSUCESSO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "335",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / LINDEIA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "3350",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "EST.BARREIRO/EST.DIAMANTE",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "336",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "HOSPITAL EDUARDO DE MENEZES / VILA BERNADETE",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "337",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / ITAIPU",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "34",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO/VIA EXPRESSA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "340",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / VILA MANGUEIRAS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "341",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / ESTACAO DIAMANTE VIA SAUDE",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "342",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO / SOLAR VIA ESTACAO DIAMANTE",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "35",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO BARREIRO/CENTRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3501A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "JARDIM ALVORADA/SAO MARCOS",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3501B",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "OURO PRETO 3A GLEBA/BAIRRO IPE VIA JD. MONTANHES",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3502",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "OURO PRETO/SAO GABRIEL",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "3503A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA TEREZINHA/SAO GABRIEL",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "401",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "METRO CID.INDUSTRIAL/S.MARIA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "402",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "METRO CID.INDUSTRIAL/CAMARGOS",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "0,90"
+    },
+    {
+      "COD_LINH": "4031",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA MARIA / HOSPITAIS",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4032",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CAICARA /SAVASSI/ PCA. DA LIBERDADE",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4033",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CAMARGOS/CENTRO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4034",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "NOVO DOM BOSCO / SAVASSI VIA PADRE EUSTAQUIO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4037",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "NOSSA SENHORA DA GLORIA / CENTRO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "406",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "EST.PONTO SAO JOSE/PINDORAMA V. N.SRA. DA GLORIA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "4102",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "APARECIDA/SERRA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4103",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "APARECIDA/MANGABEIRAS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4106",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAO CRISTOVAO/SANTO ANTONIO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4107",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ALTO CAICARA/SERRA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4108",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PEDRO II/MANGABEIRAS",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4110",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "DOM CABRAL/BELVEDERE",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4111",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "DOM CABRAL/ANCHIETA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4113",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BOM JESUS/BELVEDERE",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4114",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BONFIM / CENTRO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4150",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SHOPPING DEL REY/BH SHOPPING",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4201",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ALTO CAICARA/NOVA CINTRA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4205",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ERMELINDA/SALGADO FILHO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4403A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ZOOLOGICO VIA SERRANO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4403C",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "RESIDENCIAL SARANDI",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4403D",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "URCA-CONFISCO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4405",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "COQUEIROS",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4410",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CELSO MACHADO VIA SARAMENHA/URCA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4501",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CALIFORNIA II / SAO PAULO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4801A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "JARDIM FILADELFIA/BOA VISTA A",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4801A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "JARDIM FILADELFIA/BOA VISTA A",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "4802A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PINDORAMA/BOA VISTA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "50",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / CENTRO - DIRETA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "503",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / APARECIDA / SANTA ROSA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "5031",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SUZANA/SAVASSI-VIA UNIVERSITARIO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "504",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / SANTA ROSA / APARECIDA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "506",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PONTO SAO JOSE / AV. ANTONIO CARLOS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "507",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "OURO PRETO / SHOPPING DEL REY",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "51",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / CENTRO / HOSPITAIS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "510",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / TREVO VIA GARCAS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "5101",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SUZANA/CRUZEIRO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "5102",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "UFMG/SANTO ANTONIO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "5106",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BANDEIRANTES / BH SHOPPING",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "511",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PONTO SAO JOSE / JARDIM ALVORADA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "512",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIRCUITO PAMPULHA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "52",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / AV. ANTONIO CARLOS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "5201",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "DONA CLARA/BURITIS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "5250",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / BETANIA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "533",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CASTELO / SHOPPING DEL REY",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "535",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "XANGRILA VIA ITAMARATI / SHOPPING DEL REY",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "5401",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAO LUIS/DOM CABRAL",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "5502C",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "POUSADA SANTO ANTONIO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "5503A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "GOIANIA A",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "5503B",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "GOIANIA B",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "5506A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "RIBEIRO DE ABREU",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "5550",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / ESTACAO PONTO SAO JOSE",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "6030",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIDADE ADMINISTRATIVA/SAVASSI VIA HOSPITAIS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "6031",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIDADE ADMINISTRATIVA/CENTRO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "607",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO / ESPLENDOR",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "608",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA / NOVA PAMPULHA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "609",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SERRA VERDE/SANTA MONICA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "61",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA/CENTRO-DIRETA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "614",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / CEU AZUL A",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "615",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / CEU AZUL B",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "616",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / CEU AZUL C",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "617",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / PIRATININGA VIA RIO BRANCO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "618",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA/RIO BRANCO VIA JARDIM LEBLON",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "619",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / SANTA MONICA VIA SANTA BRANCA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "62",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA/SAVASSI VIA HOSPITAIS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "620",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / SANTA MONICA VIA SANTA AMELIA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "621",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA / LAGOA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "622",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA / LAGOINHA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "623",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA / VILA SANTA BRANCA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "624",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA / MARIA HELENA A",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "625",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA / MARIA HELENA B",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "626",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA/ESPLENDOR VIA NOVA AMERICA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "627",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA/MANTIQUEIRA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "63",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA/LAGOINHA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "630",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO/SERRA VERDE VIA AV.SALAMANCA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "631",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO / SERRA VERDE VIA MINAS CAIXA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "633",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO / JARDIM DOS COMERCIARIOS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "634",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "EST. VILARINHO/NOVA YORK VIA JD.DOS COMERCIARIOS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "635",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO / JARDIM DOS COMERCIARIOS C",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "6350",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "EST.VILARINHO/EST.BARREIRO VIA ANEL RODOVIARIO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "636",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO / JARDIM EUROPA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "637",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO / CANAA VIA SERRA VERDE",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "638",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO/MINAS CAIXA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "639",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BRAUNAS / SHOPPING DEL REY",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "64",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA/ASSEMBLEIA VIA CARLOS LUZ",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "640",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VENDA NOVA / JARDIM LEBLON VIA RIO BRANCO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "641",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO/SERRA VERDE",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "642",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "EST. VENDA NOVA/EST. VILARINHO/CID.ADMINISTRATIVA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "643",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / COPACABANA VIA MONTE CARMELO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "644",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / SAO JOAO BATISTA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "645",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "EST. PAMPULHA / SANTA MONICA VIA JARDIM ATLANTICO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "65",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO/CENTRO VIA ANTONIO CARLOS-DIRETA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "66",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO/CENTRO/HOSPITAIS VIA C.MACHADO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "67",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO/SANTO AGOSTINHO VIA CARLOS LUZ",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "68",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO / LAGOINHA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "702",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / XODO-MARIZE",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "703",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / GUARANI A",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "705",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / SAO TOMAZ",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "706",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / HELIOPOLIS",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "707",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / JARDIM GUANABARA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "708",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / FELICIDADE",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "709",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / TUPI",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "710",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / PROVIDENCIA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "711",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / SOLIMOES",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "712",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / SAO BERNARDO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "713",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / LAJEDO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "714",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / CASAS POPULARES",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "715",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / MONTE AZUL",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "716",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / NOVO AARAO REIS",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "717",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / CAMPO ALEGRE",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "718",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / PLANALTO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "719",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO PAMPULHA / FLORAMAR",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "732",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / TUPI-FELICIDADE",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "734",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / AARAO REIS VIA MINASLANDIA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "735",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO/JULIANA A",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "736",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO/JULIANA B",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "737",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO/JAQUELINE",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "738",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO VILARINHO/CONJ.ZILAH SPOSITO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "739",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "EST.VILARINHO/JAQUELINE 2ï¿½SECAO VIA FREI LEOPOLDO",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "8001A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA INES/BH SHOPPING",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "806",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / VISTA DO SOL VIA NAZARE",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "807",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / RIBEIRO DE ABREU A",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "808",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / PAULO VI",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "809",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / BELMONTE",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "810",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL/PARQUE BELMONTE VIA D.SILVERIO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "8101",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA CRUZ/ALTO SANTA LUCIA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8102",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "UNIAO/CARMO SION",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8103",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "NOVA FLORESTA/SANTA LUCIA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8106",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA CRUZ/BH SHOPPING VIA BELVEDERE",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8107",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CONCORDIA/SAO PEDRO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8108",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIDADE NOVA/SAVASSI",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "811",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / VISTA DO SOL VIA PUC",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "812",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / SAO GABRIEL A",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "813",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL/PAULO VI VIA RIBEIRO DE ABREU",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "814",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / JARDIM VITORIA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "815",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / CONJUNTO PAULO VI",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "8150",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "UNIAO/SERRA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8151",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "EST. SAO GABRIEL/BH SHOPPING VIA ANEL RODOVIARIO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "82",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / SAVASSI VIA HOSPITAIS",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8203",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "RENASCENCA/BURITIS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8205",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "MARIA GORETTI/NOVA GRANADA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8207",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "MARIA GORETTI/ESTRELA DALVA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8208",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA CRUZ / UNI-ESTORIL",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "821",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO JOSE CANDIDO / GOIANIA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "822",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO JOSE CANDIDO/VILA MARIA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "823",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / BAIRRO VITORIA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "825",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL/VITORIA II VIA UPA-NORDESTE",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "832",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / CAPITAO EDUARDO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "8350",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL/ESTACAO BARREIRO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "836",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / RIBEIRO DE ABREU B",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "837",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / CONJUNTO RIBEIRO DE ABREU",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "83D",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / CENTRO - DIRETA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "83P",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / CENTRO - PARADORA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8401",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CACHOEIRINHA/SAO JOSE",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8405",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PALMARES/BELA VISTA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "85",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO SAO GABRIEL / CENTRO VIA FLORESTA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8501",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "MARIA GORETTI/ENGENHO NOGUEIRA VIA OURO PRETO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "8550",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "EST. SAO GABRIEL / ZOOLOGICO VIA EST. PAMPULHA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "901",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIRCULAR LESTE",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "9030",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CASTANHEIRAS/CENTRO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9031",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "NOSSA SENHORA DE FATIMA/CENTRO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9032",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "GRANJA DE FREITAS",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9101",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ALTO VERA CRUZ/SANTA LUCIA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9103",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA TEREZA/SANTO ANTONIO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9104",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAGRADA FAMILIA/LUXEMBURGO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9105",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "NOVA VISTA/SION",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9106",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAGRADA FAMILIA/SERRA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9201",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BALEIA/NOVA GRANADA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9202",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "POMPEIA/JARDIM AMERICA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9204",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA EFIGENIA/ESTORIL",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9205",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "NOVA VISTA/NOVA CINTRA",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9206",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "VERA CRUZ/BURITIS",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9208",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "TAQUARIL/CONJUNTO SANTA MARIA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9209",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAGRADA FAMILIA/GUTIERREZ",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9210",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA TERESA/PRADO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9211",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CAETANO FURQUIM/HAVAI",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9211",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CAETANO FURQUIM/HAVAI",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9214",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CAETANO FURQUIM / HAVAI - VIA ALTO HAVAI",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9250",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CAETANO FURQUIM/NOVA CINTRA VIA SAVASSI",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9402",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA INES/SANTO ANDRE",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9403",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PARAISO/CAICARA",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9404",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAO LUCAS/NOVA ESPERANCA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9405",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "INSTITUTO AGRONOMICO/MONSENHOR MESSIAS",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9405",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "INSTITUTO AGRONOMICO/MONSENHOR MESSIAS",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9407",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ALTO VERA CRUZ/DOM BOSCO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9408",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA EFIGENIA/PADRE EUSTAQUIO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9410",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAGRADA FAMILIA/CORACAO EUCARISTICO",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9411",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CASA BRANCA/SAO JOSE",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9412",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CONJ.TAQUARIL/PADRE EUSTAQUIO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9414",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA INES/JOAO PINHEIRO",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9501",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAO LUCAS/JARAGUA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9502",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAO GERALDO/SAO FRANCISCO VIA ESPLANADA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9503",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "TAQUARIL/JARAGUA",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9550",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CASA BRANCA/SAO FRANCISCO VIA EST. JOSE CANDIDO",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9801",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAUDADE/SANTA CRUZ",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9803",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "TAQUARIL/PALMARES",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9805",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA EFIGENIA/RENASCENCA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "9850",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ESTACAO JOSE CANDIDO / ESTACAO SAO GABRIEL",
+      "NUM_EMPR": "802",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S10",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BH SHOPPING / SAO FRANCISCO",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S19",
+      "DAT_VIGE_PLLH": "1/11/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "HOSPITAL EVANGï¿½LICO/SHOPPING BOULEVARD",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "1,50"
+    },
+    {
+      "COD_LINH": "S20",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PALMEIRAS / SERRA",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S21",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "DOM CABRAL / BH SHOPPING",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S22",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BURITIS / METRO CALAFATE",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S31",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PETROPOLIS / BARREIRO",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "S32",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "ITAIPU / CARDOSO",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "S33",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "LINDEIA / MILIONARIOS",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "S41",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CONJUNTO CALIFORNIA / PRADO",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S50",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CAICARA / NOVA VISTA VIA UFMG",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S51",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIRCULAR PAMPULHA",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S52",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIRCULAR PAMPULHA",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S53",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CONFISCO / OURO MINAS",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S54",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "DOM BOSCO / SHOPPING DEL REY",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S55",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA MONICA / MINAS SHOPPING",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S60",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIRCULAR VENDA NOVA",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "S61",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "MANTIQUEIRA / ESTACAO VILARINHO",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "S63",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIRCULAR VENDA NOVA",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "S64",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIRCULAR VENDA NOVA",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "S65",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAO BERNARDO / MINAS CAIXA",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "3,25"
+    },
+    {
+      "COD_LINH": "S66",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "TUPI / EUROPA",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "3,25"
+    },
+    {
+      "COD_LINH": "S70",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CONJ. FELICIDADE / SHOPPING DEL REY",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S80",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "JARDIM VITORIA / ESTACAO VILA OESTE",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S81",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIRCULAR NORDESTE",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S82",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CIRCULAR NORDESTE",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "4,50"
+    },
+    {
+      "COD_LINH": "S85",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "MINAS SHOPPING / SANTA INES",
+      "NUM_EMPR": "0",
+      "TIP_TRAN": "SUPLEMENTAR",
+      "VAL_TARI": "3,25"
+    },
+    {
+      "COD_LINH": "SC01A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CONTORNO A",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "SC01B",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CONTORNO B",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "SC01R",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "CONTORNO/PRACA MILTON CAMPOS",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "SC02A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "PRACA 7/SAVASSI VIA PCA DA LIBERDADE - SANTA CASA",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "SC02B",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SAVASSI/PRACA 7 VIA SANTA CASA - PCA DA LIBERDADE",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "SC03A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "HOSPITAL FELICIO ROCHO/HOSPITAL MILITAR A",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "SC03B",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "HOSPITAL FELICIO ROCHO/HOSPITAL MILITAR B",
+      "NUM_EMPR": "804",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "SC04A",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA CASA/SAVASSI/RODOVIARIA A",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "SC04B",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "SANTA CASA/RODOVIARIA/SAVASSI B",
+      "NUM_EMPR": "801",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "3,15"
+    },
+    {
+      "COD_LINH": "SE02",
+      "DAT_VIGE_PLLH": "3/1/2017",
+      "DES_TIPO_TARI": "TARIFA NORMAL",
+      "NOM_LINH": "BURITIS/SAVASSI",
+      "NUM_EMPR": "803",
+      "TIP_TRAN": "COLETIVO",
+      "VAL_TARI": "6,10"
+    }
+  ]
+}

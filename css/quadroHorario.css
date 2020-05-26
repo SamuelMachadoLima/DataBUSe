@@ -1,0 +1,72 @@
+    /* Cabeçalho */
+.logo{
+    width: 150px;
+}
+
+.menu p{
+    padding-top: 25px;
+    color: #5f7889;
+    font-weight: bold;
+    font-size: 50px;
+}
+.menu span{
+    color: #d6183c;
+}
+.menu a{
+    background-color: white;
+    padding-right: 5px;
+    color: #5f7889;
+    font-weight: bold;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login{
+    font-size: 50px;
+    color: #5f7889;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+    /* Conteúdo */
+    /* Descrição da Linha */
+.main{
+    padding-top: 100px;
+}
+.main .titleBus{
+    color: #5f7889;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.busIcon{
+    font-size: 140px;
+    color: #5f7889;
+}
+.main .descricaoBus{
+    color: #5f7889;
+    padding-left: 80px;
+}
+
+.tarifaDesc{
+    color: #d6183c;
+}
+
+    /* Quadro de Horários e Itinerários */
+.horIti{
+    padding-top: 75px;
+}
+.horIti p{
+    color: #5f7889;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.horIti table{
+    color: #5f7889;
+}

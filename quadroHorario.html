@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/3b9171b3ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/quadroHorario.css">
+
+    <!-- Título -->
+    <link rel="shortcut icon" type="image/png" href="img/logoTitle.png"/>
+    <title>Quadro de Horários - DataBUSe</title>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/quadroHorario.js"></script>
+  </head>
+
+  <body>
+    <header class="container header">
+      <div class="row">
+        <!-- Logo -->
+        <div class="col-3">
+          <img src="img/logo.png" alt="Logo" class="logo">
+        </div>
+
+        <div class="col-6 menu">
+          <!-- Título -->
+          <div class="row center-block">
+            <p class="text-center">Data<span>BUS</span>e</p>
+          </div>
+
+          <!-- Menu -->
+          <div class="row center-block">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Página Inicial</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="linhas.html">Quadro de Horários</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Ícone de login -->
+        <div class="col-3">
+          <i class="far fa-user login"></i>
+        </div>
+      </div>
+    </header>
+
+    <main class="container main">
+      <div class="row">
+        <!-- Título -->
+        <div class="col-12">
+          <p class="titleBus">Quadro de Horários</p>
+        </div>
+      </div>
+
+      <!-- Descrição da Linha -->
+      <div class="row ">
+        <div class="col-1">
+          <i class="fas fa-bus-alt busIcon"></i>
+        </div>
+
+        <div class="col-11 descricaoBus">
+          <p><label id="linhaDesc"><b>Linha: </b></label></p>
+          <p><label id="sentido"><b>Sentido: </b></label></p>
+          <p><span class="tarifaDesc"><label id="tarifa"><b>Tarifa: </b></label></span></p>
+        </div>
+      </div>
+
+      <!-- Quadro de horários -->
+      <div class="row">
+        <div class="col-12 horIti">
+          <p>Horários</p>
+
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Hora:</th>
+              <!--  <th scope="col">00</th>
+                <th scope="col">01</th>
+                <th scope="col">02</th>
+                <th scope="col">03</th>
+                <th scope="col">04</th>
+                <th scope="col">05</th>
+                <th scope="col">06</th>
+                <th scope="col">07</th>
+                <th scope="col">08</th>
+                <th scope="col">09</th>
+                <th scope="col">10</th>
+                <th scope="col">11</th>
+                <th scope="col">12</th>
+                <th scope="col">13</th>
+                <th scope="col">14</th>
+                <th scope="col">15</th>
+                <th scope="col">16</th>
+                <th scope="col">17</th>
+                <th scope="col">18</th>
+                <th scope="col">19</th>
+                <th scope="col">20</th>
+                <th scope="col">21</th>
+                <th scope="col">22</th>
+                <th scope="col">23</th>-->
+              </tr>
+            </thead>
+            <tbody id="diaUtil">
+            <!--  <tr>
+                <th scope="col" rowspan="100">Minutos:</th>
+              </tr>-->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Quadro de Itinerários -->
+      <div class="row">
+        <div class="col-12 horIti">
+          <p>Itinerário</p>
+
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col"><b>Logradouro</b></th>
+              </tr>
+            </thead>
+
+            <tbody id="itinerario">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
