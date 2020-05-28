@@ -55,6 +55,12 @@
     }
 /* FIM CABECALHO */
 
+/* CADASTRO */
+    .login{
+        border-right: 1px solid black;
+    }
+/* FIM CADASTRO */
+
 /* MENU */
     main.main{
         padding-top: 3%;
