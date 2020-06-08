@@ -1,61 +1,73 @@
-window.onload = function () // EXECUTA O JS QUANDO A PÁGINA INCIAR
-{
+$(".show-more a").on("click", function () {
+    var $this = $(this);
+    var $content = $this.parent().prev().prev("div.novidade");
+    var linkText = $this.text().toUpperCase();
 
-    // LISTA AS LINHAS BHBUS
-    var bhbus = new XMLHttpRequest();
-    bhbus.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            var myObj = JSON.parse(this.responseText);
-            for (i = 0; i < myObj.result.length; i++) {
-                document.getElementById("listLines").innerHTML += "<li class='bhbus'><a href='/quadroHorario.html?0&" + myObj.result[i].COD_LINH + "'>" + myObj.result[i].COD_LINH + "</a></li>";
-            }
-        }
+    if (linkText === "LER MAIS") {
+        linkText = "Ler menos";
+        $content.switchClass("hideContent", "showContent", 400);
+    } else {
+        linkText = "Ler mais";
+        $content.switchClass("showContent", "hideContent", 400);
     };
-    bhbus.open("GET", "../buscatarifa_bhbus.json", true);
-    bhbus.send();
 
-    // LISTA AS LINHAS TRANSCON
-    var otimo = new XMLHttpRequest();
-    otimo.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            var obj = JSON.parse(this.responseText);
-            for (i = 0; i < obj.result.length; i++) {
-                document.getElementById("listLines").innerHTML += "<li class='otimo'><a href='/quadroHorario.html?1&" + obj.result[i].COD_LINH + "'>" + obj.result[i].COD_LINH + "</a></li>";
-            }
-        }
-    };
-    otimo.open("GET", "../otimo.json", true);
-    otimo.send();
-}
+    $this.text(linkText);
+    return false;
+});
 
-function buscaLinha() // FILTRA AS LINHAS DE ACORDO COM OQUE O USUÁRIO DIGITOU
-{
-    var input, filter, ul, li, a, i, txtValue, empresa;
-    empresa = document.getElementById('empresas').value;
-    input = document.getElementById("linha");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("listLines");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
 
-        if (empresa == 'otimo' && txtValue.toUpperCase().indexOf(filter) > -1) {
-            if (li[i].classList.contains("otimo")) {
-                li[i].style.display = "";
-            } else if (li[i].classList.contains("bhbus")) {
-                li[i].style.display = "none";
-            }
-        } else if (empresa == 'bhbus' && txtValue.toUpperCase().indexOf(filter) > -1) {
-            if (li[i].classList.contains("bhbus")) {
-                li[i].style.display = "";
-            } else if (li[i].classList.contains("otimo")) {
-                li[i].style.display = "none";
-            }
-        } else if (empresa == 'all' && txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        }else {
-            li[i].style.display = "none";
-        }
+function verificaCampos() {
+    let pass = $("#senhaC").val();
+    let confirmPass = $("#confirmaSenhaC").val();
+    let fullName = $("#fullName").val();
+    let email = $("#emailC").val();
+    let tel = $("#telefoneC").val();
+    let cpf = $("#cpfC").val();
+
+    let btn = $("#cadastrar");
+    let msg = $("#verifyPass");
+
+    if (fullName.trim() == "" || email.trim() == "" || tel.trim() == "" || cpf.trim() == "" 
+        || pass.trim() == "" || confirmPass.trim() == "") {
+        msg.html("Preencha todos os campos");
+        $(btn).prop('disabled', true);
+    }else{
+        $(btn).prop('disabled', false);
+    }
+
+    if(cpf.trim().length < 14){
+        msg.html("O número de cpf deve conter 9 dígitos!;");
+        $(btn).prop('disabled', true);
+    }
+
+    if (pass == "") {
+        msg.html("Digite uma senha!");
+        msg.css("color", "gray");
+    }
+    else if (confirmPass != pass) {
+        msg.html("As senhas estão diferentes");
+        msg.css("color", "red");
+        $(btn).prop('disabled', true);
+    } else {
+        $(btn).prop('disabled', false);
     }
 }
+
+
+$(document).on("input", "#cad input", function () {
+    verificaCampos();
+});
+
+$(document).ready(function () {
+    $('.cpf').mask('000.000.000-00');
+
+    verificaCampos();
+});
+
+$(document).on("input", ".tel", function () {
+    if ($(this).val().length <= 14) {
+        $('.tel').mask('(00) 0000-00009');
+    } else {
+        $('.tel').mask('(00) 00000-0000');
+    }
+});
