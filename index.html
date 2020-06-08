@@ -38,21 +38,17 @@
                                 <label for="senhaL">Senha</label>
                                 <input type="password" class="form-control w-75" id="senhaL">
                             </div>
-                            <button type="submit" class="btn btn-primary">Entrar</button>
+                            <button type="submit" class="btn btn-primary" onClick="check()">Entrar</button>
                         </form>
                     </div>
                     <div class="cadastro w-50 overflow-auto ml-4" style="height: 500px">
                         <h4>Ainda não se cadastrou?</h4>
                         <p>Faça seu cadastro agora mesmo!</p>
 
-                        <form method="POST" action="index.html" id="cad">
+                        <form id="cad">
                             <div class="form-group">
-                                <label for="nomeC">Nome</label>
-                                <input type="text" class="form-control w-75" autocomplete="off" id="nomeC" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="sobrenomeC">Sobrenome</label>
-                                <input type="text" class="form-control w-75" autocomplete="off" id="sobrenomeC" required>
+                                <label for="fullName">Nome Completo</label>
+                                <input type="text" class="form-control w-75" autocomplete="off" id="fullName" required>
                             </div>
 
                             <div class="form-group">
@@ -83,7 +79,7 @@
 
                             <small id="verifyPass" class="form-text"></small>
 
-                            <button type="submit" class="btn btn-primary" id="cadastrar">Cadastrar</button>
+                            <button type="submit" class="btn btn-primary" id="cadastrar" onClick="store()">Cadastrar</button>
                         </form>
                     </div>
                 </div>
@@ -219,7 +215,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="js/new.js"></script>
-
+    <script src="login.js"></script>
 </body>
 
 </html>

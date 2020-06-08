@@ -14,11 +14,12 @@ $(".show-more a").on("click", function () {
     $this.text(linkText);
     return false;
 });
+
+
 function verificaCampos() {
     let pass = $("#senhaC").val();
     let confirmPass = $("#confirmaSenhaC").val();
-    let nome = $("#nomeC").val();
-    let sobrenome = $("#sobrenomeC").val();
+    let fullName = $("#fullName").val();
     let email = $("#emailC").val();
     let tel = $("#telefoneC").val();
     let cpf = $("#cpfC").val();
@@ -26,11 +27,17 @@ function verificaCampos() {
     let btn = $("#cadastrar");
     let msg = $("#verifyPass");
 
-    if (nome.length == 0 || sobrenome.length == 0 || email.length == 0 || tel.length == 0 || cpf.length == 0 
-        || pass.length == 0 || confirmPass.length == 0) {
+    if (fullName.trim() == "" || email.trim() == "" || tel.trim() == "" || cpf.trim() == "" 
+        || pass.trim() == "" || confirmPass.trim() == "") {
+        msg.html("Preencha todos os campos");
         $(btn).prop('disabled', true);
     }else{
         $(btn).prop('disabled', false);
+    }
+
+    if(cpf.trim().length < 14){
+        msg.html("O número de cpf deve conter 9 dígitos!;");
+        $(btn).prop('disabled', true);
     }
 
     if (pass == "") {
@@ -42,8 +49,6 @@ function verificaCampos() {
         msg.css("color", "red");
         $(btn).prop('disabled', true);
     } else {
-        msg.html("Tudo ok com as senhas");
-        msg.css("color", "green");
         $(btn).prop('disabled', false);
     }
 }
@@ -52,10 +57,11 @@ function verificaCampos() {
 $(document).on("input", "#cad input", function () {
     verificaCampos();
 });
+
 $(document).ready(function () {
     $('.cpf').mask('000.000.000-00');
 
-    verificaCampos()
+    verificaCampos();
 });
 
 $(document).on("input", ".tel", function () {
