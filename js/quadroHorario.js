@@ -5,9 +5,8 @@ onload = () => {
     var linha = partes[1];
     document.getElementById("linhaDesc").innerHTML += linha + (empresa == 0 ? " - BHBus" : " - Ótimo");
 
-    var buscatarifaurl = "https://openbhbus.herokuapp.com/linhas/BuscarTarifa/" + linha;
+    var buscatarifaurl = "https://cors-anywhere.herokuapp.com/https://openbhbus.herokuapp.com/linhas/BuscarTarifa/" + linha;
 
-    
     // Descrição da linha
     var descricao = new XMLHttpRequest();
     descricao.onreadystatechange = function () {
@@ -22,6 +21,7 @@ onload = () => {
     descricao.send();
 
 
+    var diaUtilurl = "https://cors-anywhere.herokuapp.com/https://openbhbus.herokuapp.com/linhas/BuscarHorarioDiaUtil/" + linha;
 
     //Quadro de horários - Dia Útil
     var horarioUtil = new XMLHttpRequest();
@@ -37,10 +37,11 @@ onload = () => {
             }
         }
     };
-    horarioUtil.open("GET", "../diaUtil.json", true);
+    horarioUtil.open("GET", diaUtilurl, true);
     horarioUtil.send();
 
 
+    var itnerariourl = "https://cors-anywhere.herokuapp.com/https://openbhbus.herokuapp.com/linhas/BuscarItinerario/" + linha;
 
     //Itinerário
     var iti = new XMLHttpRequest();
@@ -48,12 +49,10 @@ onload = () => {
         if (this.readyState == 4 && this.status == 200) {
             var myObj = JSON.parse(this.responseText);
             for (var i = 0; i < myObj.result.length; i++) {
-                if (myObj.result[i].COD_LINH == linha) {
-                    document.getElementById("itinerario").innerHTML += `<tr><td>${myObj.result[i].TIP_LOGR} ${myObj.result[i].NOM_LOGR}</td></tr>`;
-                }
+                document.getElementById("itinerario").innerHTML += `<tr><td>${myObj.result[i].TIP_LOGR} ${myObj.result[i].NOM_LOGR}</td></tr>`;
             }
         }
     };
-    iti.open("GET", "../itinerario.json", true);
+    iti.open("GET", itnerariourl, true);
     iti.send();
 }
