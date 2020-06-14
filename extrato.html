@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DataBUSe - Extrato</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/simbol_logo1.jpg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script>
+        let autorizado = localStorage.getItem('autorizado');
+
+        if (autorizado == 0)
+            location.href = "/?0";
+    </script>
+
+    <script src="https://kit.fontawesome.com/95cf649632.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Chat Suporte -->
+    <script type="text/javascript" src="js/suporte.js"></script>
+</head>
+
+<body>
+    <div class="modal fade" id="modalAdd" tabindex="-1" role="dialog" aria-labelledby="modalAddLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalAddLabel">Cadastro de operação</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="dataOP">Data</label>
+                            <input type="text" class="form-control w-75 data" placeholder="00/00/0000"
+                                autocomplete="off" id="dataOP" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="operacao">Operação</label>
+                            <select name="operacao" id="operacao" class="form-control">
+                                <option value="0">Gasto</option>
+                                <option value="1">Recarga</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="busOP">Linha utilizada</label>
+                            <input type="text" class="form-control w-75" autocomplete="off" id="busOP" maxlength="5" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="coust">Valor</label>
+                            <input type="text" class="form-control w-75 money" autocomplete="off" id="coust" maxlength="11" required>
+                        </div>
+                    </form>
+
+                    <label id="msgtext"></label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary" onclick="addExtrato()">Adicionar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <section class="cabecalho">
+                <div class="row navegacao">
+                    <img src="img/logo.png" alt="Logog - DataBUSe">
+                    <ul class="menu_options">
+                        <li><label id="msgUser"></label>
+                        </li>
+                        <li><button type="button" onclick="location.href='/';"
+                                class="btn btn-outline-light">HOME</button>
+                        </li>
+                        <li><button id="logout" type="button" class="btn btn-outline-light">SAIR</button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="row justify-content-center" id="saldoAtual"></div>
+            <div class="d-flex flex-row-reverse mb-2">
+                <button type="button" class="btn btn-primary plus" data-toggle="modal" data-target="#modalAdd">
+                    +
+                </button>
+            </div>
+            <table class="table" id="tabelaExtrato">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Data</th>
+                        <th scope="col">Ônibus</th>
+                        <th scope="col">Valor</th>
+                        <th scope="col">Operação</th>
+                    </tr>
+                </thead>
+                <tbody id="corpoTabela">
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="http://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/extrato.js"></script>
+</body>
+
+</html>

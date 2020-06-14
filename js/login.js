@@ -6,29 +6,42 @@ var pass = document.getElementById('senhaC');
 
 
 function store() {
-    localStorage.setItem('fullName', fullName.value);
-    localStorage.setItem('email', email.value);
-    localStorage.setItem('tel', tel.value);
-    localStorage.setItem('cpf', cpf.value);
-    localStorage.setItem('pass', pass.value);
+    let userData = {
+        nome: fullName.value,
+        email: email.value,
+        tel: tel.value,
+        cpf: cpf.value,
+        pass: pass.value
+    }
+    let extrato = {
+        "results": [
+            {
+                "valor": "50.00",
+                "data": "29/03/2020",
+                "operacao": 1,
+                "onibus": "-"
+            }
+        ]
+    }
+
+    localStorage.setItem('user', JSON.stringify(userData));
+    localStorage.setItem('extrato', JSON.stringify(extrato));
+    localStorage.setItem('autorizado', "0");
 
     alert("Cadastro realizado!");
 }
 
 function check() {
-    // stored data from the register-form
-    var storedPass = localStorage.getItem('pass');
-    var storedName = localStorage.getItem('cpf');
-    var name = localStorage.getItem('fullName');
+    let user = JSON.parse(localStorage.getItem('user'));
 
-    // entered data from the login-form
     var userName = document.getElementById('cpfL');
     var userPass = document.getElementById('senhaL');
 
-    // check if stored data from register-form is equal to data from login form
-    if (userName.value == storedName && userPass.value == storedPass) {
-        alert('Bem vindo ' + name);
+    if (userName.value == user['cpf'] && userPass.value == user['pass']) {
+        localStorage.setItem('autorizado', "1");
+        location.href = "extrato.html";
     } else {
+        localStorage.setItem('autorizado', "0");
         alert('CPF não encontrado ou senha incorreta.');
         return false;
     }

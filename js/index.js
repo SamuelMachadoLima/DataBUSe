@@ -27,26 +27,26 @@ function verificaCampos() {
     let btn = $("#cadastrar");
     let msg = $("#verifyPass");
 
-    if (fullName.trim() == "" || email.trim() == "" || tel.trim() == "" || cpf.trim() == "" 
-        || pass.trim() == "" || confirmPass.trim() == "") {
-        msg.html("Preencha todos os campos");
+    msg.css("color", "gray");
+
+    if (pass == "") {
+        msg.html("Digite uma senha!");
+    }
+    else if (confirmPass != pass) {
+        msg.html("As senhas estão diferentes");
         $(btn).prop('disabled', true);
-    }else{
+    } else {
+        msg.html("Tudo ok!");
         $(btn).prop('disabled', false);
     }
 
-    if(cpf.trim().length < 14){
+    if (cpf.trim().length < 14) {
         msg.html("O número de cpf deve conter 9 dígitos!;");
         $(btn).prop('disabled', true);
     }
 
-    if (pass == "") {
-        msg.html("Digite uma senha!");
-        msg.css("color", "gray");
-    }
-    else if (confirmPass != pass) {
-        msg.html("As senhas estão diferentes");
-        msg.css("color", "red");
+    if (fullName.trim() == "" || email.trim() == "" || tel.trim() == "") {
+        msg.html("Preencha todos os campos");
         $(btn).prop('disabled', true);
     } else {
         $(btn).prop('disabled', false);

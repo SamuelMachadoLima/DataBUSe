@@ -22,6 +22,7 @@ header.header{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
+    align-items: center;
 }
 .navegacao img{
     max-width: 100px;
@@ -32,13 +33,13 @@ header.header{
 .navegacao ul{
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
     justify-content: space-around;
     top: 50%;
     transform: translateY(25%);
 }
 .navegacao ul li{
     list-style: none;
+    margin-left: 15px;
 }
 /* FIM Header */
 
@@ -99,6 +100,26 @@ section.linhas .row{
     color: #95a19b;
 }
 /* FIM Main */
+
+
+/* ----------PÁGINA DE EXTRATO---------- */
+    #msgUser{
+        color: #000;    
+        background-color: #fff;
+        padding: 6px;
+        border-radius: 10px;
+    }
+    #saldoAtual{
+        padding: 5% 0;
+        font-size: 4rem;
+    }
+    .plus{
+        border-radius: 45%;
+    }
+    .hide{
+        display: none;
+    }
+/* ----------FIM PÁGINA DE EXTRATO---------- */
 
 /* INICIO Media Query */
 @media screen and (max-width: 1200px){
