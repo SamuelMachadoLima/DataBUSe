@@ -1,31 +1,49 @@
 var fullName = document.getElementById('fullName');
 var email = document.getElementById('emailC');
 var tel = document.getElementById('telefoneC');
-var cpf = document.getElementById('cpfC');
+var numeroCartao = document.getElementById('numeroCartaoC');
 var pass = document.getElementById('senhaC');
 
+onload = () => {
+    if (!(localStorage.getItem('user'))) {
+        let user = [{
+            nome: "ADMIN",
+            email: "ADMIN@ADMIN.com",
+            tel: "(00) 0000-0000",
+            numeroCartao: "123",
+            pass: "123"
+        }];
+        localStorage.setItem('user', JSON.stringify(user));
+    }
+
+    if (!(localStorage.getItem('extrato'))) {
+        let extrato = {
+            "results": [
+                {
+                    "user_id": 0,
+                    "valor": "100000.00",
+                    "data": getActualDate(),
+                    "operacao": 1,
+                    "onibus": "-"
+                }
+            ]
+        }
+        localStorage.setItem('extrato', JSON.stringify(extrato));
+    }
+}
 
 function store() {
-    let userData = {
-        nome: fullName.value,
-        email: email.value,
-        tel: tel.value,
-        cpf: cpf.value,
-        pass: pass.value
-    }
-    let extrato = {
-        "results": [
-            {
-                "valor": "50.00",
-                "data": "29/03/2020",
-                "operacao": 1,
-                "onibus": "-"
-            }
-        ]
-    }
+    let user = JSON.parse(localStorage.getItem('user'));
 
-    localStorage.setItem('user', JSON.stringify(userData));
-    localStorage.setItem('extrato', JSON.stringify(extrato));
+    user.push({
+        "nome": fullName.value,
+        "email": email.value,
+        "tel": tel.value,
+        "numeroCartao": numeroCartao.value,
+        "pass": pass.value
+    });
+    localStorage.setItem('user', JSON.stringify(user));
+
     localStorage.setItem('autorizado', "0");
 
     alert("Cadastro realizado!");
@@ -34,15 +52,55 @@ function store() {
 function check() {
     let user = JSON.parse(localStorage.getItem('user'));
 
-    var userName = document.getElementById('cpfL');
+    var contador = 0;
+
+    var userName = document.getElementById('numeroCartaoL');
     var userPass = document.getElementById('senhaL');
 
-    if (userName.value == user['cpf'] && userPass.value == user['pass']) {
-        localStorage.setItem('autorizado', "1");
-        location.href = "extrato.html";
-    } else {
-        localStorage.setItem('autorizado', "0");
-        alert('CPF não encontrado ou senha incorreta.');
-        return false;
+    console.log(user.length)
+
+    for (let i = 0; i < user.length; i++) {
+        if (userName.value == user[i].numeroCartao && userPass.value == user[i].pass) {
+            localStorage.setItem('autorizado', `1?${i}`);
+
+            if (localStorage.getItem('extrato')) {
+                let extrato = JSON.parse(localStorage.getItem('extrato'));
+                for (let j = 0; j < extrato.results.length; j++) {
+                    if (extrato.results[j].user_id == i) {
+                        contador++;
+                    }
+                }
+            }
+
+            if (contador == 0) {
+                let extrato = {
+                    "results": [
+                        {
+                            "user_id": i,
+                            "valor": "50.00",
+                            "data": getActualDate(),
+                            "operacao": 1,
+                            "onibus": "-"
+                        }
+                    ]
+                }
+                localStorage.setItem('extrato', JSON.stringify(extrato));
+            }
+            location.href = "extrato.html";
+            return false;
+        }
     }
+    localStorage.setItem('autorizado', "0");
+    alert('Número do cartão não encontrado ou senha incorreta.');
+}
+
+function getActualDate() {
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+
+    today = dd + '/' + mm + '/' + yyyy;
+
+    return today;
 }

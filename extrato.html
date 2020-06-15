@@ -11,7 +11,7 @@
     <script>
         let autorizado = localStorage.getItem('autorizado');
 
-        if (autorizado == 0)
+        if (autorizado.indexOf("?") === -1 || autorizado == 0)
             location.href = "/?0";
     </script>
 

@@ -36,12 +36,12 @@
                 </div>
                 <div class="modal-body d-flex justify-content-between">
                     <div class="login w-50">
-                        <h4>LOGIN</h4>
+                        <h4><u>LOGIN</u></h4>
                         <form>
                             <div class="form-group">
-                                <label for="cpfL">CPF</label>
-                                <input type="text" class="form-control w-75 cpf" placeholder="Ex: 123.456.789-12"
-                                    autocomplete="off" id="cpfL">
+                                <label for="numeroCartaoL">Número do Cartão</label>
+                                <input type="text" class="form-control w-75 numeroCartao" autocomplete="off"
+                                    id="numeroCartaoL">
                             </div>
                             <div class="form-group">
                                 <label for="senhaL">Senha</label>
@@ -51,7 +51,7 @@
                         </form>
                     </div>
                     <div class="cadastro w-50 overflow-auto ml-4" style="height: 500px">
-                        <h4>Ainda não se cadastrou?</h4>
+                        <h4><u>Ainda não se cadastrou?</u></h4>
                         <p>Faça seu cadastro agora mesmo!</p>
 
                         <form id="cad" onSubmit="store()">
@@ -72,14 +72,15 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="cpfC">CPF</label>
-                                <input type="text" class="form-control w-75 cpf" autocomplete="off" id="cpfC"
-                                    placeholder="Ex: 123.456.789-12" required>
+                                <label for="numeroCartaoC">Número do Cartão</label>
+                                <input type="text" class="form-control w-75 numeroCartao" autocomplete="off"
+                                    id="numeroCartaoC" required>
                             </div>
 
                             <div class="form-group">
                                 <label for="senhaC">Senha</label>
-                                <input type="password" class="form-control w-75" autocomplete="off" id="senhaC" required>
+                                <input type="password" class="form-control w-75" autocomplete="off" id="senhaC"
+                                    required>
                             </div>
                             <div class="form-group">
                                 <label for="confirmaSenhaC">Confirma senha</label>

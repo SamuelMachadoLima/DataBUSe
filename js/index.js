@@ -22,7 +22,7 @@ function verificaCampos() {
     let fullName = $("#fullName").val();
     let email = $("#emailC").val();
     let tel = $("#telefoneC").val();
-    let cpf = $("#cpfC").val();
+    let numeroCartao = $("#numeroCartaoC").val();
 
     let btn = $("#cadastrar");
     let msg = $("#verifyPass");
@@ -40,8 +40,8 @@ function verificaCampos() {
         $(btn).prop('disabled', false);
     }
 
-    if (cpf.trim().length < 14) {
-        msg.html("O número de cpf deve conter 9 dígitos!;");
+    if (numeroCartao.trim().length < 16) {
+        msg.html("O número do cartão deve conter 15 dígitos!");
         $(btn).prop('disabled', true);
     }
 
@@ -59,7 +59,7 @@ $(document).on("input", "#cad input", function () {
 });
 
 $(document).ready(function () {
-    $('.cpf').mask('000.000.000-00');
+    $('.numeroCartao').mask('00000000000000-0');
 
     verificaCampos();
 });

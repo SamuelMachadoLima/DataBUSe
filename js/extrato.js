@@ -3,8 +3,15 @@ onload = () => {
     $('.money').mask('#0.00', { reverse: true });
 
     //Mensagem de olá para o usuário
+
     let user = JSON.parse(localStorage.getItem('user'));
-    let firstName = user.nome.trim().split(" ")[0];
+    let user_id = localStorage.getItem('autorizado');
+    user_id = user_id.split("?")[1];
+
+    for (let i = 0; i < user.length; i++) {
+        if (i == user_id)
+            var firstName = user[i].nome.trim().split(" ")[0];
+    }
 
     msgUser.innerHTML = `Seja bem vindo(a), <u>${firstName}</u>.`;
 
@@ -12,10 +19,11 @@ onload = () => {
     let extrato = JSON.parse(localStorage.getItem('extrato'));
     let saldo = 0;
     for (i = 0; i < extrato.results.length; i++) {
-        if (extrato.results[i].operacao == 0)
-            saldo -= parseFloat(extrato.results[i].valor);
-        else
-            saldo += parseFloat(extrato.results[i].valor);
+        if (extrato.results[i].user_id == user_id)
+            if (extrato.results[i].operacao == 0)
+                saldo -= parseFloat(extrato.results[i].valor);
+            else
+                saldo += parseFloat(extrato.results[i].valor);
     }
 
     saldoAtual.innerHTML = `R$ ${saldo}`;
@@ -54,6 +62,8 @@ var busOption = () => {
 
 var addExtrato = () => {
     let extrato = JSON.parse(localStorage.getItem('extrato'));
+    let user_id = localStorage.getItem('autorizado');
+    user_id = user_id.split("?")[1];
 
     msgtext.style.color = "grey";
 
@@ -71,13 +81,12 @@ var addExtrato = () => {
     }
 
     extrato.results.push({
+        "user_id": user_id,
         "valor": coust.value,
         "data": dataOP.value,
         "operacao": operacao.value,
         "onibus": busOP.value
     });
-
-    console.log(extrato.results)
 
     localStorage.setItem('extrato', JSON.stringify(extrato));
 
