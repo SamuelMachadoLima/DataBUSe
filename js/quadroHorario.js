@@ -1,9 +1,5 @@
 onload = () => {
 
-    if (window.location.hostname != "localhost") {
-        window.location.href = `${window.location.protocol}//localhost:${window.location.port}/quadroHorario.html`;
-    }
-
     var query = location.search.slice(1);
     var partes = query.split('&');
     var empresa = partes[0];
