@@ -57,7 +57,6 @@ function check() {
     var userName = document.getElementById('numeroCartaoL');
     var userPass = document.getElementById('senhaL');
 
-    console.log(user.length)
 
     for (let i = 0; i < user.length; i++) {
         if (userName.value == user[i].numeroCartao && userPass.value == user[i].pass) {

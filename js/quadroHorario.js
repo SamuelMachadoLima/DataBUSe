@@ -1,4 +1,9 @@
 onload = () => {
+
+    if (window.location.hostname != "localhost") {
+        window.location.href = `${window.location.protocol}//localhost:${window.location.port}/quadroHorario.html`;
+    }
+
     var query = location.search.slice(1);
     var partes = query.split('&');
     var empresa = partes[0];
@@ -13,8 +18,8 @@ onload = () => {
         if (this.readyState == 4 && this.status == 200) {
             var myObj = JSON.parse(this.responseText);
 
-            document.getElementById("sentido").innerHTML += myObj.result.NOM_LINH;
-            document.getElementById("tarifa").innerHTML += myObj.result.VAL_TARI;
+            document.getElementById("sentido").innerHTML += empresa == 0 ? myObj.result.NOM_LINH : "Dados da linha ainda não cadastrados.";
+            document.getElementById("tarifa").innerHTML += empresa == 0 ? myObj.result.VAL_TARI : "Dados da linha ainda não cadastrados.";
         }
     };
     descricao.open("GET", buscatarifaurl, true);
@@ -28,12 +33,16 @@ onload = () => {
     horarioUtil.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             myObj = JSON.parse(this.responseText);
-            for (var i = 0; i < myObj.result.length; i++) {
-                if (myObj.result[i].COD_LINH == linha) {
-                    var hora = myObj.result[i].HOR_SAID_VIAG;
-                    var min = myObj.result[i].MIN_SAID_VIAG;
-                    document.getElementById("diaUtil").innerHTML += `<td>${hora}h ${min}min</td>`;
+            if (empresa == 0)
+                for (var i = 0; i < myObj.result.length; i++) {
+                    if (myObj.result[i].COD_LINH == linha) {
+                        var hora = myObj.result[i].HOR_SAID_VIAG;
+                        var min = myObj.result[i].MIN_SAID_VIAG;
+                        document.getElementById("diaUtil").innerHTML += `<td>${hora}h ${min}min</td>`;
+                    }
                 }
+            else { 
+                document.getElementById("diaUtil").innerHTML += "<td>Dados da linha ainda não cadastrados.</td>";
             }
         }
     };
@@ -48,8 +57,12 @@ onload = () => {
     iti.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             var myObj = JSON.parse(this.responseText);
+            if (empresa == 0)
             for (var i = 0; i < myObj.result.length; i++) {
                 document.getElementById("itinerario").innerHTML += `<tr><td>${myObj.result[i].TIP_LOGR} ${myObj.result[i].NOM_LOGR}</td></tr>`;
+            }
+            else{
+                document.getElementById("itinerario").innerHTML += "<td>Dados da linha ainda não cadastrados.</td>";
             }
         }
     };
