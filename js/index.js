@@ -60,7 +60,7 @@ $(document).on("input", "#cad input", function () {
 
 $(document).ready(function () {
     if (window.location.hostname != "localhost") {
-        window.location.href = `${window.location.protocol}//localhost:${window.location.port}/quadroHorario.html`;
+        window.location.href = `${window.location.protocol}//localhost:${window.location.port}/index.html`;
     }
 
     $('.numeroCartao').mask('00000000000000-0');

@@ -2,7 +2,7 @@ window.onload = function () // EXECUTA O JS QUANDO A PÁGINA INCIAR
 {
 
     if (window.location.hostname != "localhost") {
-        window.location.href = `${window.location.protocol}//localhost:${window.location.port}/quadroHorario.html`;
+        window.location.href = `${window.location.protocol}//localhost:${window.location.port}/linhas.html`;
     }
 
     var buscatarifaurl = "https://cors-anywhere.herokuapp.com/https://openbhbus.herokuapp.com/linhas/BuscarTarifa";
